@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<netdb.h>
-#escaner de portas
-#Modo de uso: portscan IPalvo
+//escaner de portas
+//Modo de uso: portscan IPalvo
 main(int argc, char *argv[]){
 
 	int meusocket, conecta, port, inicio=0, final=65535;
